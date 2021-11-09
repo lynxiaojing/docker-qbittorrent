@@ -1,7 +1,7 @@
 #
 # qbittorrent with docker
 #
-FROM linuxserver/qbittorrent:latest
+FROM linuxserver/qbittorrent:amd64-latest
 # add tmm.sh
 ADD tmm.sh /
 RUN \
